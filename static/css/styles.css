@@ -1,0 +1,115 @@
+body {
+  background-repeat: 3rem;
+  padding-bottom: 3rem;
+  color: #1A2238;
+  background-color: #82a88f;
+  margin: 0;
+}
+
+.navbar-text {
+  color: #E1E2E2;
+}
+
+.dogpic {
+  margin: 0;
+  padding-top: 80px;
+  background-color: #72add9;
+}
+
+.plotly {
+  padding-left: 100px;
+  margin: auto;
+  align: center;
+}
+
+.navbar {
+  background-color: #4879c6;
+  margin-bottom: 20px;
+  max-height: 100px;
+  margin: 0;
+}
+
+.navbar-brand {
+  color: #E1E2E2;
+  margin-left: 920px;
+  padding: inherit;
+  font-size: large;
+}
+
+.DogHero {
+  background-image: url('https://img1.10bestmedia.com/Images/Photos/379272/GettyImages-104489865_54_990x660.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #000000;
+  font-weight: bolder;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+h3 {
+  color: #FFFFFF;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+h5 {
+  color: #FFFFFF;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+.weight-range {
+  min-height: 650px;
+  margin: 35px auto;
+}
+
+#avg-weight {
+  min-height: 650px;
+}
+
+@media(max-width: 992px) {
+  .navbar-expand-lg {
+    background-color: ##4879c6;
+  }
+
+  .navbar {
+    max-height: none;
+    padding: inherit;
+  }
+
+  .navbar div {
+    margin: inherit;
+    background-color: ##4879c6;
+  }
+
+  .navbar-brand {
+    padding: 10px;
+  }
+
+  button {
+    margin-right: 30px;
+  }
+
+  button:focus {
+    outline: 1px dotted;
+    outline: auto 5px;
+  }
+}
